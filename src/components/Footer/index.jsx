@@ -4,7 +4,7 @@ import './footer.scss'
 const Footer = () => {
   return (
     <>
-    <div className='footer-container'>
+    {/* <div className='footer-container'>
       <div className='footer-col1'>
         <p>LOGO</p>
         <p>Bhaktapur, Nepal</p>
@@ -29,6 +29,37 @@ const Footer = () => {
     </div>
     <div className='footer-bottom'>
       <p>Copyright 2023 Tsuki Technology Pvt. Ltd. All rights reserved</p>
+    </div> */}
+
+    <div> 
+      <div className="site-footer">
+        <div className="row justify-content-between">
+        <div className="col-lg-3">
+        <p>LOGO</p>
+        <p>Bhaktapur, Nepal</p>
+        <p>tsukitech12@gmail.com</p>
+        <p>number</p>
+        <p>number</p>
+          </div>
+        <div className="col-lg-3">
+        <h6>Company</h6>
+        <p>HOME</p>
+        <p>ABOUT US</p>
+        <p>CONTACT US</p>
+          </div>
+        <div className="col-lg-3">
+        <h6>OUR PRODUCTS</h6>
+        <p>EPR SOLUTION</p>
+        <p>SALES FORCE MANAGEMENT</p>
+        <p>MULTI VENDOR E-COMMERCE</p>
+        <p>MULTI VENDOR E-COMMERCE</p>
+        <p>MULTI VENDOR E-COMMERCE</p>
+          </div>
+        </div>
+        <div className='footer-bottom'>
+      <p>Copyright 2023 Tsuki Technology Pvt. Ltd. All rights reserved</p>
+    </div> 
+      </div>
     </div>
     </>
   )

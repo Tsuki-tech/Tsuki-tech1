@@ -5,8 +5,9 @@ import IntroPage from './LandingPage';
 import OurWork from './LandingPage/whatwedo';
 import Experience from './contact/experience';
 import Header from 'src/components/Header';
-import Contact from 'src/components/Contact';
 import Footer from 'src/components/Footer';
+import Contact from 'src/components/Contact';
+import "src/Pages/HomePage.scss"
 
 export default function HomePageRouter() {
   return (
@@ -16,14 +17,15 @@ export default function HomePageRouter() {
           <Route>sabai router yeta</Route>
         </Routes>
       </Router> */}
-      <Header />
-      <IntroPage />
-      <OurWork />
-      <Experience />
-      <Client />
-      <Contact />
-      <Footer />
-
+      <Header/>
+      <div className='tsukiTech-webPage-body'>
+      <IntroPage/>
+      <OurWork/>
+     <Experience/>
+      <Client/>
+      <Contact/>
+      <Footer/>
+      </div>    
     </div>
   );
 }
