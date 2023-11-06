@@ -5,11 +5,13 @@ import Burger from "src/assets/black logo 25 burger.png"
 const Client = () => {
   return (
     <>
-    
+    <div className="container">
     <div className="section-heading">
         <h3>Clients</h3>
     </div>
-      <div className="cards">
+    <div className="row">
+      <div className="col-lg">
+      <div className="clients justify-center">
         <img src={Burger} alt="Logo burger" />
         <img src={Burger} alt="Logo burger" />
         <img src={Burger} alt="Logo burger" />
@@ -18,6 +20,10 @@ const Client = () => {
         <img src={Burger} alt="Logo burger" />
         <img src={Burger} alt="Logo burger" />
       </div>
+      </div>
+      </div>
+    </div>
+     
     </>
   )
 }

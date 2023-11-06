@@ -1,0 +1,45 @@
+.intro {
+  display: flex;
+  align-items: center;
+  // background-color: green;
+
+  &__left {
+    flex: 0 0 50%;
+
+    // &-content{
+    //     background-color: blue;
+    // }
+
+    &-box {
+      .about {
+        height: 200px;
+        width: 200px;
+        background-color: blue;
+        border-radius: 50px;
+      }
+
+      .img1 {
+        border-radius: 30px;
+        height: 100px;
+        width: 100px;
+      }
+
+      .img2 {
+        border-radius: 30px;
+        height: 100px;
+        width: 100px;
+      }
+    }
+      &-box2 {
+        .img3 {
+          border-radius: 50px;
+          clip-path: polygon(25% 0%, 79% 0, 79% 100%, 25% 100%);
+        }
+      }
+    
+  }
+
+  &__right {
+    flex: 0 0 50%;
+  }
+}
