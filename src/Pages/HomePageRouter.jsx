@@ -4,6 +4,9 @@ import Client from './contact/client/client';
 import IntroPage from './LandingPage';
 import OurWork from './LandingPage/whatwedo';
 import Experience from './contact/experience';
+import Header from 'src/components/Header';
+import Contact from 'src/components/Contact';
+import Footer from 'src/components/Footer';
 
 export default function HomePageRouter() {
   return (
@@ -13,11 +16,14 @@ export default function HomePageRouter() {
           <Route>sabai router yeta</Route>
         </Routes>
       </Router> */}
-      <IntroPage/>
-      <OurWork/>
-     <Experience/>
-      <Client/>
-      
+      <Header />
+      <IntroPage />
+      <OurWork />
+      <Experience />
+      <Client />
+      <Contact />
+      <Footer />
+
     </div>
   );
 }

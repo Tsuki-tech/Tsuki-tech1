@@ -7,17 +7,6 @@ import Creative3 from 'src/assets/creative3.png'
 const IntroPage = () => {
   return (
     <>
-      <div>
-        <div>
-            <a href="#">LOGO</a>
-        </div>
-        <ul className='list'>
-            <li>About us</li>
-            <li>About us</li>
-            <li>About us</li>
-        </ul> 
-      </div>
-
       <div className='intro'>
         <div className="intro__left d-flex">
             <div className="intro__left-box"> 
