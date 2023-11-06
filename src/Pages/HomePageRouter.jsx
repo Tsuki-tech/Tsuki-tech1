@@ -15,7 +15,7 @@ export default function HomePageRouter() {
         </Routes>
       </Router> */}
       <Header />
-      <Client/>
+      <Client />
       {/* <Experience/> */}
       <Contact />
       <Footer />
