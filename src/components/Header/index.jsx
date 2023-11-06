@@ -1,39 +1,29 @@
 import React from 'react'
 import './header.scss'
-import Creative from 'src/assets/creative.png';
-import Creative2 from 'src/assets/creative2.png'
-import Creative3 from 'src/assets/creative3.png'
 
 const Header = () => {
   return (
     <>
-      <div>
-        <div>
-            <a href="#">LOGO</a>
+      <div direction='horizontal' className='px-5 py-3 header-container' >
+        <div className='header'>
+          <div className='header__logo'>
+            <p>LOGO</p>
+          </div>
+          <div className='header__navbar'>
+            <ul>
+              <li>Home</li>
+              <li>About</li>
+              <li>Services</li>
+              <li>Contact</li>
+            </ul>
+          </div>
         </div>
-        <ul className='list'>
-            <li>About us</li>
-            <li>About us</li>
-            <li>About us</li>
-        </ul> 
-      </div>
-
-      <div className='intro'>
-        <div className="intro__left d-flex">
-            <div className="intro__left-box"> 
-            <div className="about text-center">  
-                <h2>About Company</h2>
-                </div>
-            <img src={Creative} alt="man with the laptop" className='img1'/>
-            <img src={Creative2} alt="man with the laptop" className='img2' />
-            </div>
-            <div className="intro__left-box2">
-            <img src={Creative3} alt="man with the laptop" className='img3'/>
-            </div>
-        </div>
-        <div className="intro-right">
-            <h2>Welcome To Company Name </h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolore fuga officiis soluta cupiditate magni repudiandae accusantium omnis eligendi deserunt beatae suscipit, repellat cum reiciendis atque. Praesentium iure adipisci dolorum.</p>
+        <div className='Quotes'>
+          <p className='Quotes__top'>
+            “We’re delivering technology solutions for today and tomorrow”
+          </p>
+          <p className='Quotes__bottom'>Varosa Technology Pvt. Ltd. is a software consulting company which gives uality and cost-effective IT Administrations and Software arrangements for business process automation and re-engineering.</p>
+          <button className='Quotes__btn'>LEARN MORE</button>
         </div>
       </div>
     </>

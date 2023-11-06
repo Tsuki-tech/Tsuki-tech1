@@ -1,0 +1,20 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: none;
+    padding: 30px;
+    width: 100%;
+    gap: 30px;
+
+    &__item {
+        padding: 50px;
+        font-size: 30px;
+        text-align: center;
+        width: 100%;
+    }
+
+    &__card {
+        border: none;
+        width: 100%;
+    }
+}

@@ -1,45 +1,56 @@
-.intro {
-  display: flex;
-  align-items: center;
-  // background-color: green;
+.header-container {
+  position: relative;
+  text-align: center;
+  background-image: url("../../assets/header_bg.png ");
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  width: 100%;
+  background-size: cover;
 
-  &__left {
-    flex: 0 0 50%;
+  .header {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100vw;
 
-    // &-content{
-    //     background-color: blue;
-    // }
 
-    &-box {
-      .about {
-        height: 200px;
-        width: 200px;
-        background-color: blue;
-        border-radius: 50px;
-      }
-
-      .img1 {
-        border-radius: 30px;
-        height: 100px;
-        width: 100px;
-      }
-
-      .img2 {
-        border-radius: 30px;
-        height: 100px;
-        width: 100px;
-      }
+    &__navbar ul {
+      gap: 7rem;
+      display: flex;
+      flex-direction: row;
+      color: #fff;
+      list-style: none;
+      cursor: pointer;
     }
-      &-box2 {
-        .img3 {
-          border-radius: 50px;
-          clip-path: polygon(25% 0%, 79% 0, 79% 100%, 25% 100%);
-        }
-      }
-    
   }
 
-  &__right {
-    flex: 0 0 50%;
+  .Quotes {
+    align-items: center;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0px 120px 0px;
+
+    &__top {
+      font-family: Lato;
+      font-size: 54px;
+      font-weight: 700;
+      line-height: 65px;
+      width: 900px;
+    }
+
+    &__bottom {
+      font-family: Lato;
+      width: 650px;
+      align-items: left;
+    }
+
+    &__btn {
+      border-radius: 15px;
+      background-color: #3577FF;
+      color: #fff;
+      padding: 8px 16px 8px 16px;
+    }
   }
 }
